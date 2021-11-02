@@ -1,7 +1,7 @@
-var= 'mundo'
-print (var)  
+# var= 'mundo'
+# print (var)  
 
 pruebapares = 0
-while pruebapares <= 101:
+while pruebapares % 2 and pruebapares <101:
     print(pruebapares)
-    pruebapares += 2
+    pruebapares += 1
