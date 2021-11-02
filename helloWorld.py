@@ -11,5 +11,12 @@
 
 
 
-for i in range (1, 100, 2):
-    print ( i )
+# for i in range (1, 100, 2):
+#     print ( i )
+for num in range(1,101):
+    for i in range(2,num):
+        if (num%i==0):
+            break
+        else:
+            print(num)
+            break
