@@ -1,9 +1,15 @@
 # var= 'mundo'
 # print (var)  
 
-pruebapares = 0
-comparison= pruebapares % 2
+# pruebapares = 0
+# comparison= pruebapares % 2
 
-while comparison == 0 and pruebapares <101:
-    print(pruebapares)
-    pruebapares += 1
+# while comparison == 0 and pruebapares <101:
+#     print(pruebapares)
+#     pruebapares += 1
+
+
+
+
+for i in range (1, 100, 2):
+    print ( i )
