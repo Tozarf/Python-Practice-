@@ -13,10 +13,13 @@
 
 # for i in range (1, 100, 2):
 #     print ( i )
-for num in range(1,101):
-    for i in range(2,num):
-        if (num%i==0):
-            break
-        else:
-            print(num)
-            break
+primenums =[]
+
+for n in range(1,101):
+    contador=0
+    for i in range (1, n+1):
+        if n%i ==0:
+            contador = contador +1
+    if contador == 2:
+        primenums.append(n)
+print(primenums)
